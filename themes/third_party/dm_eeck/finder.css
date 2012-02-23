@@ -1,0 +1,64 @@
+.eeck_remove_file {
+		position:absolute;
+}
+
+.eeck_remove_file a {
+	display:block;
+	width:30px;
+	height:0;
+	padding-top:30px;
+	overflow:hidden;
+	background-repeat:no-repeat;
+}
+
+.eeck_select a, .eeck_select_upload, .eeck_upload_cancel  {
+	background: no-repeat left center;
+	padding:2px 2px 2px 20px;
+}
+
+a.eeck_select_upload {
+	padding-left:15px;
+}
+
+a.eeck_upload_cancel {
+	margin-left:15px;
+	padding-left:15px;
+}
+
+.eeck_or {
+	font-style:italic;
+	padding:0 3px;
+}
+
+.eeck_uploading span {
+	display:block;
+	padding:0 0 20px 20px;
+	background-repeat:no-repeat;
+}
+
+.publish_field p.eeck_toolbar {
+	display:inline-block;
+	background:#dee5ea;
+	padding:10px;
+	margin-top:15px;
+	border:1px solid #B6C0C2;
+}
+
+.publish_field .matrix p.eeck_toolbar {
+	padding:5px;
+}
+.publish_field .matrix p.eeck_toolbar,
+.publish_field .matrix p.sub_filename {
+	font-size:11px;
+}
+
+.eeck_offscreen {
+	position:absolute;
+	left:-10000px
+}
+
+.publish_field p.eeck_uploading {
+	height:15px;
+	overflow:hidden;
+	margin-top:20px !important;
+}

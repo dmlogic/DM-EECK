@@ -1,0 +1,42 @@
+table.mainTable th {
+	cursor:default;
+	text-align:left;
+}
+
+.eeck_resource {
+	background:#dee5ea;
+	padding:10px;
+	margin-bottom:20px;
+	border:1px solid #45555F;
+}
+
+#spare_resources_field {
+	display:none;
+}
+
+.pageContents label.eeck_ar {
+	display:inline-block;
+	padding-right:20px;
+}
+
+.pageContents label span {
+	display:inline-block;
+	width:200px;
+}
+
+.eeck_del_res  {
+	text-align:right;
+}
+
+.eeck_del_res a {
+	display:inline-block;
+	margin-left:30px;
+	padding:2px 2px 2px 15px;
+	background: no-repeat center left;
+}
+
+#eeck_add_res a {
+	display:inline-block;
+	padding:2px 2px 2px 15px;
+	background: no-repeat center left;
+}
